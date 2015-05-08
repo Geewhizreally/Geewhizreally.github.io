@@ -1,6 +1,7 @@
 body {
-background-color: aqua
+	background-color: aqua;
+	text-align: center;
 }
 h1,  h2, h3, p {
-	color: blue
+	color: blue;
 }
