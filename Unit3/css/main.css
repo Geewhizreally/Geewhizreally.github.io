@@ -1,0 +1,18 @@
+body{
+	background-color:#0b6a8f;
+}
+h1{
+	font-family:Arial, sans-serif;
+
+	color:white;
+	font-size:22px;
+	font-style:normal;
+	font-weight:700;
+	text-align:center;
+	text-decoration:underline;
+	text-transform:capitalize;   
+}
+
+.hero-image {
+	text-align: center;
+}
