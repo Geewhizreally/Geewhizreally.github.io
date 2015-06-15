@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<logo>
+		<img src="images/SHPlogo3.png">
+		<title>Where art meets the lens</title>
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link href='http://fonts.googleapis.com/css?family=Loved+by+the+King' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+		<div class="hero-image">
+			<img src="images/bacon.jpg">
+			<img src="images/chai.jpg">
+			<img src="images/cocoa.jpg">
+			<img src="images/cupcakes.jpg">
+			<img src="images/nuts.jpg">
+			<img src="images/pinecones.jpg">
+		</div>
+
+	 	<h1> </h1>
+		<p id="slogan"></p>
+
+		<p></p>
+
+
+	
+
+	
+
+	</body>
+
+</html>
