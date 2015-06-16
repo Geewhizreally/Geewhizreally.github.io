@@ -1,7 +1,14 @@
 body {
 	background-color:#ADD6FF;
 }
-
+.clearfix:after; {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: "";
+	clear:both;
+	height: 0;
+}
 header {
 	overflow: auto;
 	background-color: #FFD1D1;;
@@ -73,15 +80,17 @@ div.column {
 }
 figure{
 	float: right;
-	width: 28%;
-	margin: 20px 100px 20px 100px;
+	max-width: 33%
+	text-align:center;
+	height: 33%;
 }
+figure{
+	width:33%;
 
+}
 footer {
 	font-family: arial, sans-serif;
 	font-size: 18px;
 	float: left;
 	width: 500px;	
-}
-
 }
