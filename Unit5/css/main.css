@@ -8,15 +8,14 @@ body {
 	visibility: hidden;
 	display: block;
 	font-size: 0;
-	content: "";
-	clear:both;
+	content: " ";
+	clear: both;
 	height: 0;
 }
 
 header {
 	overflow: auto;
 	background-color: #FFD1D1;
-	background-image: 
 	background-position: left;
 	background-repeat: no-repeat;
 }
@@ -40,11 +39,11 @@ a {
 h1 { 
 	font-family: arial, sans-serif;
 	color:black;
-	font-size:68px;
-	font-style:normal;
-	font-weight:700;
-	text-align:center;
-	text-transform:capitalize;
+	font-size: 68px;
+	font-style: normal;
+	font-weight: 700;
+	text-align: center;
+	text-transform: capitalize;
 } 
 
 ul {
@@ -53,12 +52,12 @@ ul {
 
 h2 {
 	font-family: "Gabriola"; 
-	color:black;
-	font-size:30px;
-	font-style:normal;
-	font-weight:700;
-	text-align:center;
-	text-transform:capitalize; 
+	color: black;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 700;
+	text-align: center;
+	text-transform: capitalize; 
 }
 
 figure {
@@ -67,12 +66,12 @@ figure {
 	text-align: center;
 }
 section.homepage-figures figure img { 
-	width:100%; 
+	width: 100%; 
 	float: left;
 	max-width: 25%
-	text-align:center;
+	text-align: center;
 	height: 25%;
-	margin:0; 
+	margin: 0; 
 	padding-bottom: .5em;
 }
 footer {
@@ -92,17 +91,17 @@ div.column {
 	height: 600px;
 	padding: 20px;
 	margin: 0;
-	font-size:18px;
-	font-style:normal;
-	font-weight:300;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 300;
 }
 
 section.blog-figures figure img {
-	width:100%; 
+	width: 100%; 
 	float: right;
 	max-width: 33.33%
-	text-align:center;
+	text-align: center;
 	height: 25%;
-	margin:0; 
+	margin: 0; 
 	padding-bottom: .10em 0;
 }
