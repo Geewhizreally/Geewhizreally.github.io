@@ -65,12 +65,12 @@ figure {
 	width: 25%;
 	text-align: center;
 }
+
 section.homepage-figures figure img { 
 	width: 100%; 
 	float: left;
-	max-width: 25%
+	max-width: 33.33%
 	text-align: center;
-	height: 25%;
 	margin: 0; 
 	padding-bottom: .5em;
 }
