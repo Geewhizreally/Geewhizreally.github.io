@@ -29,7 +29,7 @@ h1 {
 h2 {
 	font-family: "sans-serif";
 	color:#210d08;
-	font-size: 1.875em;
+	font-size: 2.0em;
 	font-style:normal;
 	font-weight:700;
 	text-align:center;   
@@ -41,7 +41,8 @@ h3 {
 	font-style: normal;
 	font-weight: 700;
 	text-align: center; 
-	padding-bottom: 8px;
+	padding-bottom: 2px;
+	margin-bottom:1.5em;
 }
 ul {
 	list-style-type: none;
@@ -106,6 +107,15 @@ footer {
 footer .contact-info {
 	float: right;
 }
+.column h1{
+	font-family: 'Loved by the King', cursive;
+	color:#210d08;
+	font-size: 2.875em;
+	font-style:normal;
+	font-weight:700;
+	text-align:center;
+	text-transform:capitalize;   
+}
 .column {
 	float: left;
 	width: 450px;
@@ -113,7 +123,8 @@ footer .contact-info {
 	padding: 20px;
 	margin: .9em;
 	margin-left: 4.5em;
-	margin-top: 4.5em;
+	margin-bottom: .1em;
+	margin-top: .1em;
 	font-size: 16px;
 	font-style: normal;
 	font-weight: 250;
@@ -124,16 +135,12 @@ div.blog-figures figure img {
 	height: 32.000em; 
 	padding-right:.50em;
 	margin: 0; 
-	margin-bottom: .5em;
+	margin-bottom: 1.5em;
 }
-div.blog-figures figure{
+div.blog-figures figure {
 	margin-left: 6.0em;
-
 }
 @media only screen and (min-width:320px) and (max-width:480px) {
-	body{
-		background:white;
-}
 	nav{
 		float:none;
 }
@@ -145,18 +152,17 @@ figure{
 		width: 100%;
 		margin: 0;
 }
-section.homepage-figures figure img{
+.column, div.blog-figures figure, section.homepage-figures figure img{ 
 		margin-left:0;
 		margin-right:0;
-}
-.column {
-		margin-left:0;
-		margin-right: 
 }
 div.blog-figures figure img{
 		margin-left:0;
 		margin-right:0;
 }
-		
+.column{
+		padding:0;
+		width:100%;
+}	
 }
 
