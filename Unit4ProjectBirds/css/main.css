@@ -164,10 +164,10 @@ div.blog-figures figure img{
 }
 .column{
 		padding:0;
-		width:100%;	
+		width:100%;
+		height: inherit; 	
 }
-	footer: .hover{
-		background-color:inherit;
-}
+	footer a:hover{
+		background-color:inherit;	
 }
 
